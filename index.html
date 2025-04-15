@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Calculatrice</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+
+    nav {
+      background-color: pink;
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 20px;
+      border: 2px solid black;
+      box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="number"] {
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      margin: 10px 0;
+      border: 4px solid #000;
+      border-radius: 8px;
+    }
+
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    button {
+      flex: 1 1 calc(50% - 10px);
+      padding: 12px;
+      font-size: 18px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #535353;
+    }
+
+    .result {
+      font-size: 20px;
+      color: #000;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 400px) {
+      .btns {
+        flex-direction: column;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <input type="number" id="nb1" placeholder="Saisi le nombre 1">
+    <input type="number" id="nb2" placeholder="Saisi le nombre 2">
+
+    <div class="btns">
+      <button onclick="calculer('+')">+</button>
+      <button onclick="calculer('-')">-</button>
+      <button onclick="calculer('*')">×</button>
+      <button onclick="calculer('/')">÷</button>
+    </div>
+
+    <div class="result">
+      Résultat : <span id="res"></span>
+    </div>
+  </nav>
+
+  <script src="script.js">
+   
+  </script>
+
+</body>
+</html>
