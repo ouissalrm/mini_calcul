@@ -29,6 +29,6 @@ This project helped me practice:
 
 ## 🚀 Live Demo
 
-🔗 [View the mini calculator online](https://your-username.github.io/mini_calcul)
+🔗 https://minicalcul.netlify.app/
 
 
