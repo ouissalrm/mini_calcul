@@ -8,13 +8,13 @@ A simple calculator project built with **HTML**, **CSS**, and **JavaScript**.
 - ➖ Subtraction  
 - ✖️ Multiplication  
 - ➗ Division  
-- 🧼 Clear button to reset the input
+
 
 ## 💻 Technologies Used
 
-- HTML5  
-- CSS3  
-- Vanilla JavaScript (no libraries)
+- HTML 
+- CSS 
+- JavaScript
 
 ## 🎯 Learning Objectives
 
@@ -25,7 +25,8 @@ This project helped me practice:
 
 ## 📷 Preview
 
-![screenshot](./screenshot.png)
+<img width="362" alt="image" src="https://github.com/user-attachments/assets/7572e6ee-3088-4367-a260-0c4c072a9361" />
+
 
 ## 🚀 Live Demo
 
